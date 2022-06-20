@@ -1,0 +1,17 @@
+.hero-banner {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://cdn.pixabay.com/photo/2022/01/15/02/07/windows-6938478_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.95;
+}
+
+/*.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;*/
