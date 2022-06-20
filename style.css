@@ -24,6 +24,9 @@ a {
 li {
     display: inline; 
 }
+ main {
+    background-color: rgb(247, 244, 241);
+ }
 /*
 .header nav ul li {
     display: inline-block;
