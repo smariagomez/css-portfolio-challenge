@@ -17,13 +17,21 @@ h1 {
     padding-right: 6px;
 }
 
-a {
-    color: lavender;
+nav ul {
+    display: flex;
 }
 
 li {
-    display: inline; 
+    display: inline;
+    justify-content: space-evenly; 
 }
+
+a {
+    padding: 10px;
+    color: lavender;
+
+}
+
  main {
     background-color: rgb(247, 244, 241);
  }
@@ -42,13 +50,21 @@ nav {
 }
 */
 
+.hero-banner {
+    height: 200px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2022/01/15/02/07/windows-6938478_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.95;
+    margin-bottom: 2px;
+    display: flex; 
+}
+
 h2 {
     color: rgb(48, 48, 134);
-    padding: 6px;
-    float: right; 
+    padding: 6px 6px 6px 6px; 
     background-color: lavender; 
-    margin-right: 30px;
-    margin-top: 100px;
 }
 
 h3 {
@@ -59,14 +75,3 @@ h3 {
 h4 {
     color: rgb(48, 48, 134);
  }
-
-
-.hero-banner {
-    height: 200px;
-    width: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2022/01/15/02/07/windows-6938478_960_720.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.95;
-    margin-bottom: 2px;
-}
