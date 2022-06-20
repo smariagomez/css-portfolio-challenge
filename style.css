@@ -81,7 +81,6 @@ h2 {
     margin-top: 140px;
     margin-bottom: 20px;
     margin-left: 70%;
-    border-radius: ;
 }
 
 .page-section {
@@ -90,13 +89,13 @@ h2 {
 .page-section h3 {
         width: 60%;
         display: inline-block;
-        margin-left: 30px;
-        margin-top: 50px; 
-        padding-right: 10px;
         font-size: 30px;
         font-weight: bold;
         color: rgb(48, 48, 134);
         border-right: 2px solid rgb(48, 48, 134);
+        margin-left: 30px;
+        margin-top: 50px; 
+        padding-right: 10px;
 }
 
 .page-section p {
@@ -107,18 +106,36 @@ h2 {
     color:rgb(6, 6, 89);
 }
 
-.page-section a{
-    color:rgb(48, 48, 134);
-    display: inline-block;
-    text-align: left;
-    margin-left: auto;
-  
+.remainder {
+    display: flex;
 }
 
-.contact a {
-    display: flex;
-    justify-content: flex-end;
+h3 {
+    width: 60%;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(48, 48, 134);
+    margin-left: 30px;
+    margin-top: 50px; 
+    padding-right: 10px;
 }
-h4 {
+
+ .contact-me {
+    display: flex;
+    width: 60%;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
     color: rgb(48, 48, 134);
+    margin-left: 30px;
+    margin-top: 50px; 
+    padding-right: 10px;
+ }
+
+ .contact-me a {
+    color:rgb(48, 48, 134);
+    font-size: 18px;
+   display: inline-block;
+   text-align: right;
  }
