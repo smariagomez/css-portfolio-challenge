@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -9,22 +16,39 @@ header {
     background-color:rgb(48, 48, 134);
     height: 80px;
     width: 100%;
+    justify-content: flex-end;
+    align-items: center; 
 }
 
 h1 {
     background-color: lavender;
     color: rgb(48, 48, 134);
-    padding-left: 30px;
-    padding-right: 6px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    padding-left: 60px;
+    padding-right: 12px;
+
 }
 
 nav ul {
     display: flex;
+    justify-content: flex-end;
+    transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+    color: aqua; 
 }
 
 li {
     display: inline;
-    justify-content: space-evenly; 
+    margin-right: 15px;
+    margin-bottom: 20px;
+  
 }
 
 a {
@@ -45,30 +69,56 @@ a {
     background-size: cover;
     background-position: center;
     opacity: 0.95; 
+    position: relative;
 }
 
 h2 {
     text-align: center;
     color: rgb(48, 48, 134);
     background-color: lavender;
+    position: absolute;
     padding: 5px;
     margin-top: 140px;
+    margin-bottom: 20px;
     margin-left: 70%;
+    border-radius: ;
 }
 
-h3 {
-    font-size: 30px;
-    color: rgb(48, 48, 134);
+.page-section {
+    display: flex;
+}
+.page-section h3 {
+        width: 60%;
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 50px; 
+        padding-right: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(48, 48, 134);
+        border-right: 2px solid rgb(48, 48, 134);
 }
 
-p {
+.page-section p {
+    display: inline-block;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 15%;
     color:rgb(6, 6, 89);
 }
 
+.page-section a{
+    color:rgb(48, 48, 134);
+    display: inline-block;
+    text-align: left;
+    margin-left: auto;
+  
+}
+
+.contact a {
+    display: flex;
+    justify-content: flex-end;
+}
 h4 {
     color: rgb(48, 48, 134);
  }
-
-h3, div {
-    display: inline;
-}
