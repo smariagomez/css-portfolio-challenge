@@ -101,10 +101,9 @@ h2 {
 }
 
 .page-section p {
-    display: inline-block;
     text-align: left;
-    margin-left: 22%;
     color:rgb(6, 6, 89);
+    margin-left: 15px;
 }
 
 .page-section a {
@@ -114,7 +113,20 @@ h2 {
     display: inline-block;
     justify-content: flex-end;
 }
-
+.flex-container {
+    width: 79%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#work {
+    width: 20%;
+}
+#project-one {
+    width: 91.5%;
+}
+#img1{
+    width: 100%;
+}
 /* edit .contact-me rule to improve justification and alignment
  .contact-me {
     display: flex;
@@ -144,6 +156,7 @@ h2 {
 }*/
 
  .card {
+    width: 45%;
     background-color: lavender;
     padding: 10px;
     border: 3px solid rgb(48, 48, 134);
@@ -156,5 +169,12 @@ h2 {
     justify-content: space-between;
 
  }
+#about-me {
+    width: 20%;
+
+}
+#paragraph {
+    width: 79%;
+}
 
  /*deleted footer background*/
