@@ -49,6 +49,7 @@ li {
     display: inline;
     margin-right: 15px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 a {
@@ -70,6 +71,13 @@ a {
     background-position: center;
     opacity: 0.95; 
     position: relative;
+}
+
+#avatar {
+    border-radius: 50%;
+    height: 70%;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 h2 {
@@ -96,14 +104,24 @@ h2 {
         border-right: 2px solid rgb(48, 48, 134);
         margin-right: 10px;
         text-align: right;
-        padding-right: 10px;
+        padding-right: 8px;
         display: inline-block;
+}
+
+#about-me {
+    width: 20%;
+}
+
+#paragraph {
+    width: 79%;
 }
 
 .page-section p {
     text-align: left;
     color:rgb(6, 6, 89);
     margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .page-section a {
@@ -113,20 +131,49 @@ h2 {
     display: inline-block;
     justify-content: flex-end;
 }
+
 .flex-container {
     width: 79%;
     display: flex;
     flex-wrap: wrap;
 }
+
 #work {
     width: 20%;
 }
-#project-one {
+
+
+.card {
+    width: 45%;
+    background-color: lavender;
+    padding: 10px;
+    border: 3px solid rgb(48, 48, 134);
+    margin-left: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+ }
+
+ #project-one {
     width: 91.5%;
 }
+
 #img1{
     width: 100%;
+    opacity: 0.7;
 }
+ #img2 {
+    width: 100%;
+    opacity: 0.7;
+ }
+ .project-headings {
+  color: lavender;
+  background-color:rgb(78, 78, 179);
+ }
+
+ /*.contact {
+    justify-content: space-between;
+ }*/
+
 /* edit .contact-me rule to improve justification and alignment
  .contact-me {
     display: flex;
@@ -138,43 +185,8 @@ h2 {
     color: rgb(48, 48, 134);
  margin-left: 100px;
  }*/
-/* elements removed from .contact-me 
-    margin-left: 30px;
-    margin-top: 50px; 
-    padding-right: 10px;*/
+/* elements removed from .contact-me*/
 
-/* removed .title class to assess impact on overall format
-.title {
-    width: 20%;
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(48, 48, 134);
-    border-right: 2px solid rgb(48, 48, 134);
-    margin-right: 10px;
-    text-align: center;
-    display: inline-block;
-}*/
-
- .card {
-    width: 45%;
-    background-color: lavender;
-    padding: 10px;
-    border: 3px solid rgb(48, 48, 134);
-    margin-left: 15px;
-    margin-top: 25px;
-    flex-wrap: wrap;
- }
-
- .contact {
-    justify-content: space-between;
-
- }
-#about-me {
-    width: 20%;
-
-}
-#paragraph {
-    width: 79%;
-}
+/* removed .title class to assess impact on overall format*/
 
  /*deleted footer background*/
