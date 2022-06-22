@@ -37,7 +37,7 @@ h1 {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     transition: all 0.3s ease 0s;
 }
 
@@ -120,7 +120,7 @@ h2 {
     text-align: left;
     color:rgb(6, 6, 89);
     margin-left: 15px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     font-size: 20px;
 }
 
@@ -151,6 +151,7 @@ h2 {
     margin-left: 15px;
     margin-top: 25px;
     flex-wrap: wrap;
+    position: relative;
  }
 
  #project-one {
@@ -167,13 +168,88 @@ h2 {
  }
  .project-headings {
   color: lavender;
-  background-color:rgb(78, 78, 179);
+  background-color: rgb(48, 48, 134);
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
  }
 
- /*.contact {
-    justify-content: space-between;
- }*/
 
+.contact {
+    justify-content: center;
+}
+
+#ContactMe{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:992px) {
+    h1{
+        background-color: lavender;
+    }
+}
+
+@media screen and (max-width:786) {
+    h2 {
+        margin-top: 70px;
+    }
+
+    .page-section h3 {
+        padding-right: 60px;
+        margin: 0;
+        flex-wrap: wrap;
+        font-size: 20px;
+}
+}
+
+
+@media screen and (max-width:576px) {
+    h1{
+        background-color: lavender;
+    }
+
+    .page-section h3 {
+        padding-right: 60px;
+        margin: 0;
+        flex-wrap: wrap;
+        font-size: 20px;
+}
+h2 {
+    margin-top: 70px;
+}
+
+.project-headings {
+font-size: 10px;
+    padding: 2px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+   }
+  
+   h1 {
+    font-size: 30px;
+    /*background-color: lavender;
+    color: rgb(48, 48, 134);
+    height: 60px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 60px;
+    padding-right: 12px;*/
+
+}
+
+.contact{
+    flex-direction: column;
+    font-size: 18px;
+    text-align: left;
+    /*text-align: center;*/
+}
+}
 /* edit .contact-me rule to improve justification and alignment
  .contact-me {
     display: flex;
