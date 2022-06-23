@@ -19,8 +19,8 @@ https://smariagomez.github.io/css-portfolio-challenge/
 
 Formatting/dimensions of project 1 image need to be adjusted to mitigate blurriness. 
 
-CSS for lef-sided border needs to be adjustd for more seamlsess transitions between screen sizes.
+CSS for left-sided border needs to be adjustd for more seamlsess transitions between screen sizes.
 
-Will need to aquire profession headshot to replace avatar.
+Will need to acquire a professional headshot to replace avatar.
 
 <img src="./assets/ProfileScreenShot.jpg">
